@@ -1,0 +1,16 @@
+.help-container { 
+    overflow-y: scroll;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.help-container::-webkit-scrollbar {
+    display: none !important;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .help-container  {
+    -ms-overflow-style: none !important;  /* IE and Edge */
+    scrollbar-width: none !important;  /* Firefox */
+  }

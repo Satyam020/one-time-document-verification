@@ -1,0 +1,14 @@
+.about__step-container {
+    margin: 0 1rem 2rem;
+}
+
+.about__step-container .about__step {
+    margin-bottom: .1rem;
+}
+
+.about__note {
+    font-size: 1rem;;
+}
+h2{
+    text-align: center;
+}

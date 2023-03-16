@@ -1,0 +1,28 @@
+
+.login {
+    text-align: center;
+}
+
+.remember-me{
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.form-group .form-label{
+    display: block;
+    text-align: left;
+    font-size: .7rem;
+    margin-bottom: .2rem;
+}
+
+.form-group .form-control~:not(.form-error){
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group .form-error {
+    font-size: 1rem;
+    color: red;
+    text-align: left;
+}

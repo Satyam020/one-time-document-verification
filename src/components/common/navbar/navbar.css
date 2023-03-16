@@ -1,0 +1,49 @@
+.Nav{
+    background-color: rgb(229, 233, 238);
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    text-align: center;
+    z-index: 1000;
+    border-bottom: 1px;
+    max-height: 60px;
+}
+.navlink{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1vmax 1.2vmax;
+    color: rgb(12, 1, 12);
+    
+}
+.searchbox{
+   padding: 1vmax;
+   position: relative;
+   margin-left:50%;
+}
+.searchbox>input{
+    margin-left: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    /* background-color: rgb(252, 144, 243); */
+    width: 15vmax;
+    font-size: 1.2vmax;
+
+}
+.searchbox>input:hover{
+    border: none;
+}
+.searchbox>button{
+    border-radius:5px;
+}
+.searchbox>button:hover{
+    border-radius: 30px;
+    background-color: azure;
+}
+.rightNav {
+    width: 20%;
+    text-align: right;
+    /* background-color: bisque; */
+    position: absolute;
+    right: 30px;;
+}

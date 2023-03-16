@@ -1,0 +1,23 @@
+.personaldetails{
+/* border: 0.5px solid rgb(58, 51, 51); */
+}
+
+.user-details-container{ 
+    overflow-y: scroll;
+    height: 100%;
+    padding: 2rem;
+}
+form{
+    /* border: 1px solid red; */
+    /* margin: 5px;
+    padding: 1px; */
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.section-label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
